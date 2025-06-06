@@ -1,6 +1,6 @@
 import Foundation
 
-ASD
+
 struct Weather: Identifiable {
     let id: String
     let location: String
