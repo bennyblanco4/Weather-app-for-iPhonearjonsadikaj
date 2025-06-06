@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {
+  };
+  objectVersion = 56;
+  objects = {
+
+    /* Begin PBXBuildFile section */
+    D35641AB0928EF7C /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E190CFD4278B536A; };
+    0A123D458E69B7FC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7391D65C0AB428; };
+    01B23CDE4596A87F /* CommonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF21A43967BD058; };
+    C8D0B94761F2EA35 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A93B2671EFC80D; };
+    A6397BEC102F48D5 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B25D4610CFA8E; };
+    FCA2BD893561E407 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5241C68F7DE9A0; };
+    382E1C57DB6FA094 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B97E36ACF5D24; };
+    8B7291EC5D40F6A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8752F14E3AD069; };
+    9EC2186AFB740D35 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1645E70D82FCA3B9; };
+    6709F1BC235D4A8E /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C47369852E1ADBF0; };
+    3FAD82CEB4709561 /* WeatherappforiPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08BE931247AD65C; };
+    BA520DE37416F98C /* WeatherappforiPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5126A3EFB8497D; };
+    69C3BFD0A18E2574 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B03857126A4FDE; };
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    4D5F21B708E6CA39 /* WeatherappforiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherappforiPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+    E190CFD4278B536A /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherViewModel.swift"; sourceTree = "<group>"; };
+    FE7391D65C0AB428 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models.swift"; sourceTree = "<group>"; };
+    CEF21A43967BD058 /* CommonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommonComponents.swift"; sourceTree = "<group>"; };
+    45A93B2671EFC80D /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentWeatherView.swift"; sourceTree = "<group>"; };
+    379B25D4610CFA8E /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForecastView.swift"; sourceTree = "<group>"; };
+    3B5241C68F7DE9A0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchView.swift"; sourceTree = "<group>"; };
+    810B97E36ACF5D24 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherService.swift"; sourceTree = "<group>"; };
+    BC8752F14E3AD069 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+    1645E70D82FCA3B9 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherApp.swift"; sourceTree = "<group>"; };
+    C47369852E1ADBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+    F08BE931247AD65C /* WeatherappforiPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherappforiPhoneTests.swift"; sourceTree = "<group>"; };
+    0C5126A3EFB8497D /* WeatherappforiPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherappforiPhoneUITests.swift"; sourceTree = "<group>"; };
+    26B389DCA104E7F5 /* WeatherappforiPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeatherappforiPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+    02B936D471FA8C5E /* WeatherappforiPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeatherappforiPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+    C9B03857126A4FDE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXFrameworksBuildPhase section */
+    51EBDF3609C7A842 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        69C3BFD0A18E2574 /* SwiftUI.framework in Frameworks */
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    12A05647E3C8D9FB /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    C0E1283AF4D56B97 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXFrameworksBuildPhase section */
+
+    /* Begin PBXGroup section */
+    D89103AE45B7C26F /* Main Group */ = {
+      isa = PBXGroup;
+      children = (
+        2E1A74F9C85B036D /* WeatherappforiPhone */,
+        2970E3D4C865AF1B /* WeatherappforiPhoneTests */,
+        01784AC23569FDBE /* WeatherappforiPhoneUITests */,
+        230C8F1B94D57EA6 /* Products */
+      );
+      sourceTree = "<group>";
+    };
+    2E1A74F9C85B036D /* WeatherappforiPhone */ = {
+      isa = PBXGroup;
+      children = (
+        E190CFD4278B536A,
+        FE7391D65C0AB428,
+        CEF21A43967BD058,
+        45A93B2671EFC80D,
+        379B25D4610CFA8E,
+        3B5241C68F7DE9A0,
+        810B97E36ACF5D24,
+        BC8752F14E3AD069,
+        1645E70D82FCA3B9,
+        C47369852E1ADBF0
+      );
+      path = "WeatherappforiPhone";
+      sourceTree = "<group>";
+    };
+    
+    2970E3D4C865AF1B /* WeatherappforiPhoneTests */ = {
+      isa = PBXGroup;
+      children = (
+        F08BE931247AD65C /* WeatherappforiPhoneTests.swift */
+      );
+      path = "WeatherappforiPhoneTests";
+      sourceTree = "<group>";
+    };
+    01784AC23569FDBE /* WeatherappforiPhoneUITests */ = {
+      isa = PBXGroup;
+      children = (
+        0C5126A3EFB8497D /* WeatherappforiPhoneUITests.swift */
+      );
+      path = "WeatherappforiPhoneUITests";
+      sourceTree = "<group>";
+    };
+    230C8F1B94D57EA6 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        4D5F21B708E6CA39 /* WeatherappforiPhone.app */,
+        26B389DCA104E7F5 /* WeatherappforiPhoneTests.xctest */,
+        02B936D471FA8C5E /* WeatherappforiPhoneUITests.xctest */
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXNativeTarget section */
+    4C7D38B650921EFA /* WeatherappforiPhone */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 6D7543FCAE2810B9 /* Build configuration list for PBXNativeTarget "WeatherappforiPhone" */;
+      buildPhases = (
+        18D59F370E26BA4C /* Sources */,
+        51EBDF3609C7A842 /* Frameworks */
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = "WeatherappforiPhone";
+      productName = "WeatherappforiPhone";
+      productReference = 4D5F21B708E6CA39 /* WeatherappforiPhone.app */;
+      productType = "com.apple.product-type.application";
+    };
+    D3591F20A4E687BC /* WeatherappforiPhoneTests */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 9E20463C781AFB5D /* Build configuration list for PBXNativeTarget "WeatherappforiPhoneTests" */;
+      buildPhases = (
+        F413D9B76E08A25C /* Sources */,
+        12A05647E3C8D9FB /* Frameworks */
+      );
+      buildRules = (
+      );
+      dependencies = (
+        13ED286907F54ACB /* PBXTargetDependency */
+      );
+      name = "WeatherappforiPhoneTests";
+      productName = "WeatherappforiPhoneTests";
+      productReference = 26B389DCA104E7F5 /* WeatherappforiPhoneTests.xctest */;
+      productType = "com.apple.product-type.bundle.unit-test";
+    };
+    B743F2C910D6A85E /* WeatherappforiPhoneUITests */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1037ECF9456A8D2B /* Build configuration list for PBXNativeTarget "WeatherappforiPhoneUITests" */;
+      buildPhases = (
+        06BC491A85E7D32F /* Sources */,
+        C0E1283AF4D56B97 /* Frameworks */
+      );
+      buildRules = (
+      );
+      dependencies = (
+        E762BF4A853DC910 /* PBXTargetDependency */
+      );
+      name = "WeatherappforiPhoneUITests";
+      productName = "WeatherappforiPhoneUITests";
+      productReference = 02B936D471FA8C5E /* WeatherappforiPhoneUITests.xctest */;
+      productType = "com.apple.product-type.bundle.ui-testing";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin PBXProject section */
+    15CB293860AE4F7D /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastSwiftUpdateCheck = 1500;
+        LastUpgradeCheck = 1500;
+        TargetAttributes = {
+          4C7D38B650921EFA = {
+            CreatedOnToolsVersion = 15.0;
+          };
+          D3591F20A4E687BC = {
+            CreatedOnToolsVersion = 15.0;
+            TestTargetID = 4C7D38B650921EFA;
+          };
+          B743F2C910D6A85E = {
+            CreatedOnToolsVersion = 15.0;
+            TestTargetID = 4C7D38B650921EFA;
+          };
+        };
+      };
+      buildConfigurationList = 508DE3F4B126C9A7 /* Build configuration list for PBXProject "WeatherappforiPhone" */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base
+      );
+      mainGroup = D89103AE45B7C26F;
+      productRefGroup = 230C8F1B94D57EA6 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        4C7D38B650921EFA /* WeatherappforiPhone */,
+        D3591F20A4E687BC /* WeatherappforiPhoneTests */,
+        B743F2C910D6A85E /* WeatherappforiPhoneUITests */
+      );
+    };
+    /* End PBXProject section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    18D59F370E26BA4C /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        D35641AB0928EF7C,
+        0A123D458E69B7FC,
+        01B23CDE4596A87F,
+        C8D0B94761F2EA35,
+        A6397BEC102F48D5,
+        FCA2BD893561E407,
+        382E1C57DB6FA094,
+        8B7291EC5D40F6A3,
+        9EC2186AFB740D35,
+        6709F1BC235D4A8E
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    F413D9B76E08A25C /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        3FAD82CEB4709561 /* WeatherappforiPhoneTests.swift in Sources */
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    06BC491A85E7D32F /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        BA520DE37416F98C /* WeatherappforiPhoneUITests.swift in Sources */
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin PBXContainerItemProxy section */
+    E18DFB932C60457A /* PBXContainerItemProxy */ = {
+      isa = PBXContainerItemProxy;
+      containerPortal = 15CB293860AE4F7D /* Project object */;
+      proxyType = 1;
+      remoteGlobalIDString = 4C7D38B650921EFA;
+      remoteInfo = "WeatherappforiPhone";
+    };
+    0FA651EBD842793C /* PBXContainerItemProxy */ = {
+      isa = PBXContainerItemProxy;
+      containerPortal = 15CB293860AE4F7D /* Project object */;
+      proxyType = 1;
+      remoteGlobalIDString = 4C7D38B650921EFA;
+      remoteInfo = "WeatherappforiPhone";
+    };
+    /* End PBXContainerItemProxy section */
+
+    /* Begin PBXTargetDependency section */
+    13ED286907F54ACB /* PBXTargetDependency */ = {
+      isa = PBXTargetDependency;
+      target = 4C7D38B650921EFA /* WeatherappforiPhone */;
+      targetProxy = E18DFB932C60457A /* PBXContainerItemProxy */;
+    };
+    E762BF4A853DC910 /* PBXTargetDependency */ = {
+      isa = PBXTargetDependency;
+      target = 4C7D38B650921EFA /* WeatherappforiPhone */;
+      targetProxy = 0FA651EBD842793C /* PBXContainerItemProxy */;
+    };
+    /* End PBXTargetDependency section */
+
+    /* Begin XCBuildConfiguration section */
+    4BFD5A2E83769C10 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+        CLANG_ENABLE_MODULES = YES;
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_ENABLE_OBJC_WEAK = YES;
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        DEVELOPMENT_ASSET_PATHS = "";
+        DEVELOPMENT_TEAM = "";
+        ENABLE_PREVIEWS = YES;
+        ENABLE_STRICT_OBJC_MSGSEND = YES;
+        ENABLE_TESTABILITY = YES;
+        FRAMEWORK_SEARCH_PATHS = (
+          "$(inherited)",
+          "$(SDKROOT)/System/Library/Frameworks"
+        );
+        GCC_C_LANGUAGE_STANDARD = gnu11;
+        GCC_DYNAMIC_NO_PIC = NO;
+        GCC_NO_COMMON_BLOCKS = YES;
+        GCC_OPTIMIZATION_LEVEL = 0;
+        GCC_PREPROCESSOR_DEFINITIONS = (
+          "DEBUG=1",
+          "$(inherited)",
+        );
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+        INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        LD_RUNPATH_SEARCH_PATHS = (
+          "$(inherited)",
+          "@executable_path/Frameworks",
+        );
+        MARKETING_VERSION = 1.0;
+        MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+        MTL_FAST_MATH = YES;
+        ONLY_ACTIVE_ARCH = YES;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.weatherappforiphone";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Debug;
+    };
+    E47A32D81F95B60C /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+        CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+        CLANG_ENABLE_MODULES = YES;
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_ENABLE_OBJC_WEAK = YES;
+        CODE_SIGN_STYLE = Automatic;
+        COPY_PHASE_STRIP = NO;
+        CURRENT_PROJECT_VERSION = 1;
+        DEVELOPMENT_ASSET_PATHS = "";
+        DEVELOPMENT_TEAM = "";
+        ENABLE_NS_ASSERTIONS = NO;
+        ENABLE_PREVIEWS = YES;
+        ENABLE_STRICT_OBJC_MSGSEND = YES;
+        FRAMEWORK_SEARCH_PATHS = (
+          "$(inherited)",
+          "$(SDKROOT)/System/Library/Frameworks"
+        );
+        GCC_C_LANGUAGE_STANDARD = gnu11;
+        GCC_NO_COMMON_BLOCKS = YES;
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+        INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        LD_RUNPATH_SEARCH_PATHS = (
+          "$(inherited)",
+          "@executable_path/Frameworks",
+        );
+        MARKETING_VERSION = 1.0;
+        MTL_ENABLE_DEBUG_INFO = NO;
+        MTL_FAST_MATH = YES;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.weatherappforiphone";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+        SWIFT_COMPILATION_MODE = wholemodule;
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_OPTIMIZATION_LEVEL = "-O";
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        VALIDATE_PRODUCT = YES;
+      };
+      name = Release;
+    };
+    D319E7C548FA0B26 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        BUNDLE_LOADER = "$(TEST_HOST)";
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.weatherappforiphone.Tests";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+        SWIFT_EMIT_LOC_STRINGS = NO;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherappforiPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeatherappforiPhone";
+      };
+      name = Debug;
+    };
+    3725FE0DB1469AC8 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        BUNDLE_LOADER = "$(TEST_HOST)";
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.weatherappforiphone.Tests";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+        SWIFT_EMIT_LOC_STRINGS = NO;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherappforiPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeatherappforiPhone";
+        VALIDATE_PRODUCT = YES;
+      };
+      name = Release;
+    };
+    91475BCED82A06F3 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.weatherappforiphone.UITests";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+        SWIFT_EMIT_LOC_STRINGS = NO;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        TEST_TARGET_NAME = WeatherappforiPhone;
+      };
+      name = Debug;
+    };
+    EBF38745019C6DA2 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.weatherappforiphone.UITests";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SDKROOT = iphoneos;
+        SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+        SWIFT_EMIT_LOC_STRINGS = NO;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        TEST_TARGET_NAME = WeatherappforiPhone;
+        VALIDATE_PRODUCT = YES;
+      };
+      name = Release;
+    };
+    /* End XCBuildConfiguration section */
+
+    /* Begin XCConfigurationList section */
+    508DE3F4B126C9A7 /* Build configuration list for PBXProject "WeatherappforiPhone" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        4BFD5A2E83769C10 /* Debug */,
+        E47A32D81F95B60C /* Release */
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    6D7543FCAE2810B9 /* Build configuration list for PBXNativeTarget "WeatherappforiPhone" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        4BFD5A2E83769C10 /* Debug */,
+        E47A32D81F95B60C /* Release */
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    9E20463C781AFB5D /* Build configuration list for PBXNativeTarget "WeatherappforiPhoneTests" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        D319E7C548FA0B26 /* Debug */,
+        3725FE0DB1469AC8 /* Release */
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1037ECF9456A8D2B /* Build configuration list for PBXNativeTarget "WeatherappforiPhoneUITests" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        91475BCED82A06F3 /* Debug */,
+        EBF38745019C6DA2 /* Release */
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList section */
+
+  };
+  rootObject = 15CB293860AE4F7D /* Project object */;
+}
