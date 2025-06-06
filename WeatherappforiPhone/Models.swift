@@ -1,6 +1,8 @@
 import Foundation
 
-
+AFS
+ASDAS
+SADS
 struct Weather: Identifiable {
     let id: String
     let location: String
