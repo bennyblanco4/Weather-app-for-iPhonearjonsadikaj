@@ -1,8 +1,6 @@
 import SwiftUI
 SFOFF
-sdds
-DSadsdsa
-dsadsad
+
 struct ProgressView: View {
     var body: some View {
         Text("ProgressView")
