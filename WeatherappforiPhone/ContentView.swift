@@ -7,13 +7,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                // Background gradient based on weather conditions
-                LinearGradient(
-                    gradient: Gradient(colors: weatherViewModel.backgroundColors),
-                    startPoint: .top,
-                    endPoint: .bottom
-                )
-                .ignoresSafeArea()
+                // Changed background to red
+                Color.red
+                    .ignoresSafeArea()
                 
                 if weatherViewModel.isLoading {
                     ProgressView()
