@@ -3,7 +3,7 @@
    <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
       <BuildActionEntries>
          <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
-            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="0E127B3FC54869AD" BuildableName="WeatherappforiPhone.app" BlueprintName="WeatherappforiPhone" ReferencedContainer="container:WeatherappforiPhone.xcodeproj"/>
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="79C65E432AF810BD" BuildableName="WeatherappforiPhone.app" BlueprintName="WeatherappforiPhone" ReferencedContainer="container:WeatherappforiPhone.xcodeproj"/>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
@@ -13,7 +13,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D6B5E29C41AF807"
+               BlueprintIdentifier = "65A49E832CB170DF"
                BuildableName = "WeatherappforiPhoneTests.xctest"
                BlueprintName = "WeatherappforiPhoneTests"
                ReferencedContainer = "container:WeatherappforiPhone.xcodeproj">
@@ -23,7 +23,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0E281A5C4D7F396"
+               BlueprintIdentifier = "8B70C15439F2DAE6"
                BuildableName = "WeatherappforiPhoneUITests.xctest"
                BlueprintName = "WeatherappforiPhoneUITests"
                ReferencedContainer = "container:WeatherappforiPhone.xcodeproj">
@@ -33,7 +33,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E127B3FC54869AD"
+            BlueprintIdentifier = "79C65E432AF810BD"
             BuildableName = "WeatherappforiPhone.app"
             BlueprintName = "WeatherappforiPhone"
             ReferencedContainer = "container:WeatherappforiPhone.xcodeproj">
@@ -44,7 +44,7 @@
       <BuildableProductRunnable runnableDebuggingMode="0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E127B3FC54869AD"
+            BlueprintIdentifier = "79C65E432AF810BD"
             BuildableName = "WeatherappforiPhone.app"
             BlueprintName = "WeatherappforiPhone"
             ReferencedContainer = "container:WeatherappforiPhone.xcodeproj">
@@ -56,7 +56,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E127B3FC54869AD"
+            BlueprintIdentifier = "79C65E432AF810BD"
             BuildableName = "WeatherappforiPhone.app"
             BlueprintName = "WeatherappforiPhone"
             ReferencedContainer = "container:WeatherappforiPhone.xcodeproj">
