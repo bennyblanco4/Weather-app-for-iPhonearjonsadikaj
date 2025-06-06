@@ -7,8 +7,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                // Changed background from black to red
-                Color.red
+                // Changed background from red to green
+                Color.green
                     .ignoresSafeArea()
                 
                 if weatherViewModel.isLoading {
